@@ -71,10 +71,14 @@ Tested across 4 distinct market phases to avoid overfitting:
 
 | Strategy                            | Invested | Final value | Performance |
 |-------------------------------------|----------|-------------|-------------|
-| RSI + F&G combined          | $6,694 | $11,017 | +64.6%  |
-
-Per-phase breakdown :
-
+| Equal weights, RSI only             | $6,554   | $8,355      | +27.5%      |
+| old config, RSI only                | $6,398   | $9,203      | +43.8%      |
+| RSI only                            | $6,389   | $10,184     | +59.4%      |
+| **RSI + F&G combined**              | **$6,694** | **$11,017** | **+64.6%**  |
+| F&G only (reference)                | $7,000   | $11,851     | +69.3%      |
+ 
+Per-phase breakdown (v7 combined signal):
+ 
 | Phase          | Period      | Perf    |
 |----------------|-------------|---------|
 | Crypto Winter  | 2022 → 2023 | -29.0%  |
