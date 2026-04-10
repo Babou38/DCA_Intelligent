@@ -11,6 +11,10 @@ Smart **Dollar Cost Averaging** bot for crypto — weekly buys dynamically adjus
 [![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 [![Binance](https://img.shields.io/badge/Binance_API-F0B90B?style=for-the-badge&logo=binance&logoColor=black)](https://binance-docs.github.io/apidocs/)
 
+### Sample output
+
+![DCA recommendation output](assets/recommend.png)
+
 ## 🎯 Strategy
 
 ### Core-Satellite Allocation
@@ -114,25 +118,6 @@ python dca_production.py tax 2025
 
 # Run the 4-year backtest
 python dca_production.py backtest
-```
-
-### Sample output
-
-```
-RECOMMENDATION DCA — 23/03/2026
-   Weekly budget: $50
-   Fear & Greed: 35/100 — Fear [xF&G: 2.0]
-
-   Pair          Price    RSI   xRSI  xF&G  xFinal   Amount     Coins
-   ----------------------------------------------------------------------
-   BTCUSDT    $85,000   42.3   2.0   2.0   x2.00   $40.00    0.000471
-   ETHUSDT     $1,900   38.1   2.0   2.0   x2.00   $20.00    0.010526
-   SOLUSDT       $135   51.2   1.0   2.0   x1.50    $7.50    0.055556
-   BNBUSDT       $580   68.4   0.5   2.0   x1.25    $3.13    0.005388
-   XRPUSDT      $2.50   29.8   3.0   2.0   x2.50   $10.00    4.000000
-   LINKUSDT    $14.00   75.1   0.0   2.0   x1.00    $3.50    0.250000
-
-   Total to invest: $80.50
 ```
 
 ## 🇫🇷 French Tax Compliance
