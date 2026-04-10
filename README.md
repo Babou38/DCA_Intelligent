@@ -2,7 +2,7 @@
 
 Smart **Dollar Cost Averaging** bot for crypto — weekly buys dynamically adjusted by a combined **RSI + Fear & Greed Index** signal. Core-Satellite strategy on 6 Binance pairs, with full French tax logging (PMP, form 2086).
 
-> ⚠️ Educational project. Not financial advice.
+⚠️ Educational project. Not financial advice. This software is provided "as is", without warranty of any kind. The author is not responsible for any financial loss resulting from its use. Cryptocurrency trading involves substantial risk — do your own research.
 
 ## 🛠️ Tech Stack
 
